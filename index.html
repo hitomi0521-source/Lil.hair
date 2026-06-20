@@ -7,7 +7,6 @@
 
   <!-- SEO基本設定 -->
   <meta name="description" content="宮城県名取市の美容室 Lil.hair（リルヘアー）。完全プライベート空間で、一人のスタイリストが最後まで担当。再現性と持ちの良さにこだわったオーダーメイドスタイルをご提案。JR名取駅から徒歩11分。">
-  <meta name="keywords" content="Lil.hair,リルヘアー,美容室,名取市,宮城県,プライベートサロン,カット,カラー,ヘッドスパ,名取駅">
   <meta name="author" content="Lil.hair">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://ここにサイトのURL">
@@ -55,6 +54,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#staff">Staff</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
           <li><a href="#access">Access</a></li>
         </ul>
         <div class="pc-nav-cta">
@@ -82,6 +82,7 @@
         <li><a href="#features">Features</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#staff">Staff</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
         <li><a href="#access">Access</a></li>
       </ul>
       <div class="mobile-nav-contact">
@@ -94,14 +95,17 @@
    <section class="hero">
   <div class="hero-image">
     <div class="hero-slider">
-      <img src="images/hero-main.jpg" alt="Lil.hair 名取市の美容室 店内の様子" class="hero-img active">
-      <img src="images/hero-main2.jpg" alt="Lil.hair グリーンあふれるナチュラルな空間" class="hero-img">
-      <img src="images/hero-main3.jpg" alt="Lil.hair こだわりのシャンプー台" class="hero-img">
-      <img src="images/hero-main4.jpg" alt="Lil.hair ウッド調の温かみある内装" class="hero-img">
+     <img src="images/hero-main.jpg" alt="Lil.hair 名取市の美容室 店内の様子" class="hero-img active" loading="eager" fetchpriority="high">
+      <img src="images/hero-main2.jpg" alt="Lil.hair グリーンあふれるナチュラルな空間" class="hero-img" loading="lazy">
+      <img src="images/hero-main3.jpg" alt="Lil.hair こだわりのシャンプー台" class="hero-img" loading="lazy">
+      <img src="images/hero-main4.jpg" alt="Lil.hair ウッド調の温かみある内装" class="hero-img" loading="lazy">
     </div>
     <div class="hero-overlay">
-      <img src="images/logo.png" alt="Lil.hair" class="hero-logo">
-      <h1 class="hero-name">Lil.hair</h1>
+      <img src="images/logo.png" alt="Lil.hair ロゴ" class="hero-logo">
+      <h1 class="hero-name">
+        <span class="hero-name-visible">Lil.hair</span>
+        <span class="hero-name-sr">（リルヘアー）｜宮城県名取市の完全プライベート美容室</span>
+      </h1>
       <p class="hero-tagline">「なりたい」を諦めない、あなただけのプライベートサロン</p>
     </div>
   </div>
@@ -121,12 +125,9 @@
     </div>
     <div class="concept-body">
       <p class="concept-lead">「なりたい」を諦めない。<br>日常に溶け込む、あなただけのオーダーメイドスタイル。</p>
-      <p class="concept-text">
-        雑誌で見かけた素敵なカット、憧れの色味。<br>
-        「自分には似合わないかも…」と、どこかで諦めていませんか？<br>
-        当店は、一人のスタイリストが最後まで担当する完全プライベートサロンです。大人の女性特有の髪の変化や、言葉にしづらいこだわりも、マンツーマンだからこそ気兼ねなくご相談いただけます。<br>
-        大切にしているのは、翌朝からの「再現性」と、時間が経っても崩れない「持ちの良さ」。あなたのライフスタイルに寄り添い、毎日が少し軽やかになるスタイルをご提案します。
-      </p>
+      <p class="concept-text">雑誌で見かけた素敵なカット、憧れの色味。「自分には似合わないかも…」と、どこかで諦めていませんか？</p>
+      <p class="concept-text">当店は、<strong>宮城県名取市</strong>にある、一人のスタイリストが最後まで担当する完全プライベートサロンです。大人の女性特有の髪の変化や、言葉にしづらいこだわりも、マンツーマンだからこそ気兼ねなくご相談いただけます。</p>
+      <p class="concept-text">大切にしているのは、翌朝からの「再現性」と、時間が経っても崩れない「持ちの良さ」。あなたのライフスタイルに寄り添い、毎日が少し軽やかになるスタイルをご提案します。</p>
     </div>
   </section>
 
@@ -142,7 +143,7 @@
     <div class="feature-item">
       <div class="feature-visual">
         <div class="feature-image">
-          <img src="images/feature-technic.jpg" alt="カット中の手元" class="feature-img">
+          <img src="images/feature-technic.jpg" alt="Lil.hairのカット技術 - 髪を丁寧にカットする様子" class="feature-img">
           <div class="feature-placeholder fp-1">
             <span>カット中の手元</span>
           </div>
@@ -151,7 +152,8 @@
       </div>
       <div class="feature-accent"></div>
       <h3 class="feature-name">技術</h3>
-      <p class="feature-text">施術前のカウンセリングでは、今の髪の悩みだけでなく、普段のお手入れ方法や、次にサロンへ来られるまでの期間まで細かくイメージを共有します。<br>髪質を否定するのではなく、今の状態を最大限に活かすことで、ご自宅でもハンドドライだけでサロンの仕上がりが再現できます。</p>
+      <p class="feature-text">施術前のカウンセリングでは、今の髪の悩みだけでなく、普段のお手入れ方法や、次にサロンへ来られるまでの期間まで細かくイメージを共有します。</p>
+      <p class="feature-text">髪質を否定するのではなく、今の状態を最大限に活かすことで、ご自宅でもハンドドライだけでサロンの仕上がりが再現できます。</p>
     </div>
 
     <!-- Feature 2: Space -->
@@ -170,14 +172,15 @@
       </div>
       <div class="feature-accent"></div>
       <h3 class="feature-name">プライベート空間</h3>
-      <p class="feature-text">当店にあるのは、わずか2つのお席だけ。賑やかな大型店とは一線を画す、穏やかな時間が流れる場所です。隣の話し声や、多くの人の目が気になることはありません。お気に入りのカフェでひと休みするように、誰にも邪魔されない「自分だけの時間」を。<br>髪も心も解き放たれる、上質なリラックスタイムをお約束します。</p>
+     <p class="feature-text">当店にあるのは、わずか2つのお席だけ。賑やかな大型店とは一線を画す、穏やかな時間が流れる場所です。隣の話し声や、多くの人の目が気になることはありません。お気に入りのカフェでひと休みするように、誰にも邪魔されない「自分だけの時間」を。</p>
+     <p class="feature-text">髪も心も解き放たれる、上質なリラックスタイムをお約束します。</p>
     </div>
 
     <!-- Feature 3: Products photos -->
     <div class="feature-item feature-item-photo">
       <div class="feature-photos-grid">
         <div class="feature-image">
-          <img src="images/feature-products.jpg" alt="こだわりのヘアケア商品" class="feature-img">
+          <img src="images/feature-products.jpg" alt="Lil.hairで使用するこだわりのヘアケア商品" class="feature-img">
         </div>
         <div class="feature-image">
           <img src="images/feature-interior.jpg" alt="グリーンとライトが彩る店内" class="feature-img">
@@ -265,7 +268,7 @@
       <p>※仕上げのブローは全てのメニューに含まれます。</p>
     </div>
 
-    <a href="https://beauty.hotpepper.jp/slnH000725223/coupon/" class="btn-detail">詳細はこちら</a>
+  <a href="https://beauty.hotpepper.jp/slnH000725223/coupon/" class="btn-detail" target="_blank" rel="noopener noreferrer">詳細はこちら</a>
   </section>
 
   <!-- Staff -->
@@ -280,7 +283,7 @@
 
     <div class="staff-card">
       <div class="staff-photo">
-        <img src="images/staff.jpg" alt="東條 由佑" class="staff-img">
+        <img src="images/staff.jpg" alt="Lil.hair スタイリスト 東條 由佑" class="staff-img">
         <div class="staff-placeholder">
           <div class="stf-bg"></div>
           <div class="stf-silhouette">
@@ -293,19 +296,53 @@
       <div class="staff-info">
         <p class="staff-name-jp">東條　由佑</p>
         <p class="staff-name-en">Yusuke Tojo</p>
-        <p class="staff-message">
-          美容室は少し緊張する、という方にこそお越しいただきたいと思っています。私が目指しているのは、特別な日だけではなく、日常の延長線上でふらっと立ち寄れるような、温かみのあるサロンです。<br>
-          「自分に似合うスタイルがわからない」「スタイリングが苦手」……そんな小さなお悩みも、どうぞお気軽にご相談ください。あなたの毎日にそっと寄り添い、明日からの元気をお持ち帰りいただけるような施術を心がけています。
-        </p>
+        <p class="staff-message">美容室は少し緊張する、という方にこそお越しいただきたいと思っています。私が目指しているのは、特別な日だけではなく、日常の延長線上でふらっと立ち寄れるような、温かみのあるサロンです。</p>
+        <p class="staff-message">「自分に似合うスタイルがわからない」「スタイリングが苦手」……そんな小さなお悩みも、どうぞお気軽にご相談ください。あなたの毎日にそっと寄り添い、明日からの元気をお持ち帰りいただけるような施術を心がけています。</p> 
       </div>
     </div>
   </section>
+
+  <!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="section-header">
+      <span class="section-bar"></span>
+      <span class="section-num">05</span>
+    <h2 class="section-title">FAQ</h2>
+  </div>
+
+  <div class="faq-list">
+    <div class="faq-item">
+      <h3 class="faq-q">カウンセリングはどれくらい時間がかかりますか？</h3>
+      <p class="faq-a">初めてのお客様には、お悩みやご希望をしっかり伺うため15〜20分程度お時間をいただいています。お気軽にご相談ください。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-q">駐車場はありますか？</h3>
+      <p class="faq-a">店舗専用の駐車場をご用意しております。詳しい場所はご予約時にご案内いたしますので、お気軽にお問い合わせください。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-q">子供連れでも利用できますか？</h3>
+      <p class="faq-a">完全プライベートサロンですので、お子様連れでも安心してご来店いただけます。事前にお知らせいただけるとスムーズです。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-q">何日前から予約できますか？</h3>
+      <p class="faq-a">2ヶ月先までご予約可能です。土日祝日は混み合いますので、お早めのご予約をおすすめします。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-q">初めてでも安心して相談できますか？</h3>
+      <p class="faq-a">「自分に似合うスタイルがわからない」「スタイリングが苦手」など、どんな小さなお悩みでも丁寧にお伺いします。一人のスタイリストが最後まで担当しますので、安心してご相談ください。</p>
+    </div>
+  </div>
+</section>
 
   <!-- Access -->
   <section class="section access" id="access">
     <div class="section-header">
         <span class="section-bar"></span>
-        <span class="section-num">05</span>
+        <span class="section-num">06</span>
       <h2 class="section-title">Access</h2>
     </div>
 
@@ -340,7 +377,7 @@
     </div>
 
     <div class="access-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3136.7188266784947!2d140.87468157585857!3d38.16997368929711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a2500374fca15%3A0x9f53392cfcb8a659!2z44Oq44Or44OY44Ki44O8!5e0!3m2!1sja!2sjp!4v1777819141114!5m2!1sja!2sjp" width="100%" height="100%" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3136.7188266784947!2d140.87468157585857!3d38.16997368929711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a2500374fca15%3A0x9f53392cfcb8a659!2z44Oq44Or44OY44Ki44O8!5e0!3m2!1sja!2sjp!4v1777819141114!5m2!1sja!2sjp" width="100%" height="100%" class="map-iframe" title="Lil.hair 店舗地図" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
 
@@ -362,7 +399,7 @@
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
       <span>022-397-6797</span>
     </a>
-    <a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000725223" class="fbb-reserve">
+    <a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000725223" class="fbb-reserve" target="_blank" rel="noopener noreferrer">
       <span>WEB予約</span>
     </a>
   </div>
@@ -392,10 +429,65 @@
       "closes": "19:00"
     }
   ],
-  "priceRange": "¥3,400〜",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.1700,
+    "longitude": 140.8747
+  },
+  "priceRange": "¥3,400〜¥17,000",
   "description": "宮城県名取市の完全プライベート美容室。一人のスタイリストが最後まで担当し、再現性と持ちの良さにこだわったオーダーメイドスタイルをご提案します。"
 }
+ </script>
+ <!-- 構造化データ（FAQ） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "カウンセリングはどれくらい時間がかかりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "初めてのお客様には、お悩みやご希望をしっかり伺うため15〜20分程度お時間をいただいています。お気軽にご相談ください。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "駐車場はありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "店舗専用の駐車場をご用意しております。詳しい場所はご予約時にご案内いたしますので、お気軽にお問い合わせください。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "子供連れでも利用できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "完全プライベートサロンですので、お子様連れでも安心してご来店いただけます。事前にお知らせいただけるとスムーズです。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "何日前から予約できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2ヶ月先までご予約可能です。土日祝日は混み合いますので、お早めのご予約をおすすめします。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "初めてでも安心して相談できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "「自分に似合うスタイルがわからない」「スタイリングが苦手」など、どんな小さなお悩みでも丁寧にお伺いします。一人のスタイリストが最後まで担当しますので、安心してご相談ください。"
+      }
+    }
+  ]
+}
 </script>
+
   <script src="script.js"></script>
 </body>
 </html>
