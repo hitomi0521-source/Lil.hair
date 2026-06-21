@@ -270,7 +270,10 @@ dl, dt, dd { margin: 0; }
 }
 
 .pc-nav-reserve:active {
-  transform: translateY(0) scale(0.98);
+  transform: translateY(2px) scale(0.96);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+  background: var(--c-primary-dark);
+  transition: all 0.1s ease;
 }
 
 /* Overlay */
@@ -1336,8 +1339,10 @@ h1.hero-name {
    BUTTON STATES
    ===================== */
 .btn-detail:active {
-  transform: translateY(0) scale(0.98);
-  box-shadow: none;
+  transform: translateY(2px) scale(0.97);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.15);
+  background: var(--c-brown);
+  transition: all 0.1s ease;
 }
 
 .btn-detail:focus-visible {
@@ -1346,9 +1351,19 @@ h1.hero-name {
 }
 
 .fbb-tel:active,
+transform: scale(0.95);
+  filter: brightness(0.85);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 12px;
+  transition: all 0.1s ease;
+}
+
 .fbb-reserve:active {
-  opacity: 0.8;
-  transform: scale(0.98);
+  transform: scale(0.95);
+  filter: brightness(0.85);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.25);
+  border-top-right-radius: 12px;
+  transition: all 0.1s ease;
 }
 
 .fbb-tel:focus-visible,
