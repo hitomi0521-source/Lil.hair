@@ -749,7 +749,7 @@ dl, dt, dd { margin: 0; }
 .staff-photo {
   position: relative;
   width: 60%;
-  margin-left: 5%;
+  margin: 0 auto;
   aspect-ratio: 3 / 3.2;
   overflow: hidden;
   background: #a8d4d8;
@@ -1203,7 +1203,7 @@ dl, dt, dd { margin: 0; }
   /* Staff PC */
   .staff-photo {
     width: 60%;
-    margin-left: 5%;
+    margin: 0 auto;
   }
 }
 /* =====================
